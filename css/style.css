@@ -1,0 +1,160 @@
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+h2{
+	font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #000;
+}
+.btn:hover {
+    color: #7585f7ba;
+}
+
+
+.nav-head{
+	background-color: white;
+}
+
+
+/* home section  */
+.home{
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.home-content p {
+    color: #000;
+    font-size: 35px;
+    font-weight: 200;
+}
+.home-btn{
+	background-color: #35ff35;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.home-content h2 {
+    margin-top: 170px;
+}
+
+/*   work section  */
+.work-icon {
+    padding: 0px 0px 70px 85px;
+}
+.work-heading{
+	text-align: center;
+}
+.work-heading h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 50px;
+    color: #515151;
+    margin-bottom: 50px;
+}
+.w-btn{
+	background-color: #f096ff;
+    padding: 10px 25px;
+    border-radius: 10px;	
+}
+.w-btn-2{
+	background-color: #35ff35;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+/*   blog section   */
+.blog-btn{
+	margin: 50px 0px;
+}
+.feature-heading p {
+    font-size: 20px;
+    color: #515151;
+}
+
+/*  project section  */
+.project-item {
+    display: flex;
+}
+.project-content {
+    margin-left: 60px;
+}
+.project-item{
+	background-color: 
+}
+.project-1 {
+    background-color: #e6f0f9;
+    padding: 20px 20px;
+}
+.project-2 {
+    background-color: #e9e9e9;
+    padding: 20px 20px;
+}
+/* CARD PART STARTS HERE */
+.find {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+.find-main {
+    border-radius: 7px;
+}
+.find-img img {
+    display: block;
+    border-radius: 7px 7px 0 0;
+}
+.find-img {
+    position: relative;
+}
+#btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #FFF;
+    background: #26a6d1;
+    position: absolute;
+    bottom: 378px;
+    right: 15px;
+    border-radius: 5px;
+}
+#day2 {
+    margin-left: 240px;
+}
+.days {
+    border-bottom: 1px solid #515151;
+}
+.details {
+    text-align: end;
+    padding: 30px 0;
+}
+.details i{
+    color: #99c50a;
+    margin-left: 10px;
+}
+.days {
+    display: flex;
+}
+.card-content {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #b3b3b3;
+    border-radius: 0 0 7px 7px;
+}
+
+
+body img{
+  display: inline-block;
+  margin: 0 0rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.btn:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: heartbeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+
